@@ -1,5 +1,5 @@
 <template>
-  <div class="p-24">
+  <div class="p-12 mx:p-24">
     <h1 class="font-bold text-6xl mb-4">Compare pizza offers online</h1>
     <p class="mb-16">Check which pizza offer has more pizza for less $</p>
     <div class="flex gap-x-12">
@@ -23,6 +23,5 @@ const pizzaOffers = ref<PizzaOffer[]>([]);
 
 const addPizzaOffer = (pizzaOffer: PizzaOffer) => {
   pizzaOffers.value.push({...pizzaOffer});
-  console.log('pizzaOffers', pizzaOffers.value)
 };
 </script>

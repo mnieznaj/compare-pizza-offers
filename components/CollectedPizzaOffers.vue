@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h2>Collected pizza offers</h2>
+    <h2 class="text-4xl font-bold mb-8">Collected pizza offers</h2>
     <div>
       <PizzaOffer
         v-for="pizzaOffer in pizzaOffers"

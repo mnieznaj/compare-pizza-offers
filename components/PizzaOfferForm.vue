@@ -11,7 +11,7 @@
     <label>Diameter</label>
     <input v-model.number="pizzaOffer.diameter" type="text" class="border border-1 border-black my-4"/>
 
-    <button type="submit" class="border border-black my-4">Add pizza offer</button>
+    <button type="submit" class="border border-black rounded-3xl my-4 p-4">Add pizza offer</button>
   </form>
 </template>
 
